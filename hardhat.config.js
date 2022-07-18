@@ -21,7 +21,7 @@ module.exports = {
         rinkeby: {
             chainId: 4,
             blockConfirmations: 6,
-            url: RINKEBY_RPC_URL,
+            url: process.env.RPC_URL,
             accounts: [PRIVATE_KEY],
         },
     },
